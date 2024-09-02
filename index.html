@@ -100,17 +100,16 @@
               <h2 class="heading">About Me</h2>
               <div class="content">
                 <p>
-                  Hi!👋 I am a full stack developer with 7 years of experience in .NET, ASP.NET and
+                  Hi!👋 I am a full stack developer with 9 years of experience in .NET, ASP.NET and
                   ReactJS/JavaScript
                 </p>
                 <ul>
 
-                  <li>I have experience in building and deploying code using CI/CD 🚀 with Jenkins.</li>
+                  <li>I have experience in building large scale distributed systems.</li>
                   <li>
                     I am a technology enthusiast and a good learner with ability to learn new
-                    technologies.
+                    technologies on my own.
                   </li>
-                  <li>I am currently learning about Trino (a distributed SQL query engine), CQRS and Event Driven Architecture.</li>
                   <li>I have authored the following Visual Studio extensions:</li>
                   <ul>
                     <li><a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.SurroundSelection">Surround Selection</a></li>
@@ -129,6 +128,51 @@
             <div class="section-inner shadow-sm rounded">
               <h2 class="heading">Projects</h2>
               <div class="content">
+                <div class="item">
+                  <h3 class="title">
+                    <a
+                      href="https://www.bing.com"
+                      target="_blank"
+                      >User Authentication on Bing.Com</a
+                    >
+                    <span class="badge badge-theme">Microsoft</span>
+                  </h3>
+                  <p class="summary">
+                    Implemented sign-in using OpenIdConnect protocol to sign-in users with their personal (aka MSA) account.
+                    <br />
+                    <ul>
+                      <li>Sign-In using Microsoft.Identity.Web using OpenIdConnect + Cookies based authentication.</li>
+                      <li>Implemented bearer authentication as well to allow stateless auth.</li>
+                      <li>Reduced the auth cookie size by 85% by implementing a custom cookie serializer instead of using the default which ships with Asp.Net Core</li>
+                    </ul>
+                    Tech Stack:
+                    <span class="badge badge-theme">C#</span>&nbsp;
+                    <span class="badge badge-theme">Asp.Net Core</span>&nbsp;
+                  </p>
+                </div>
+                <div class="item">
+                  <h3 class="title">
+                    <a
+                      href="https://copilot.microsoft.com"
+                      target="_blank"
+                      >End-to-End testing framework for Copilot</a
+                    >
+                    <span class="badge badge-theme">Microsoft</span>
+                  </h3>
+                  <p class="summary">
+                    An end-to-end testing framework which tests the LLM response based on configurable thresholds and assertions. Removes the burden of manual testing before shipping a new release every time.
+                    <br />
+                    <ul>
+                      <li>Simple JSON based test authoring which makes writing tests very easy.</li>
+                      <li>Fully integrated with Azure DevOps which makes viewing test results within the pipeline.</li>
+                      <li>Written in C# using Playwright</li>
+                    </ul>
+                    Tech Stack:
+                    <span class="badge badge-theme">C#</span>&nbsp;
+                    <span class="badge badge-theme">Playwright</span>&nbsp;
+                    <span class="badge badge-theme">Azure DevOps</span>&nbsp;
+                  </p>
+                </div>
                 <div class="item">
                   <h3 class="title">
                     <a
@@ -310,19 +354,24 @@
               <div class="content">
                 <div class="item">
                   <h3 class="title">
-                    Software Engineer II -
+                    Senior Software Engineer -
                     <span class="place"><a target="_blank" href="https://microsoft.com">Microsoft</a></span>
                     <span class="year">(Sep 2022 - Present)</span>
                   </h3>
                   <p>
                     <ul>
                       <li>
-                        Working on Microsoft Bing frontend platform which is the ingress for search traffic on
-                        Bing.com while also powering the UX for Microsoft Bing search including the new Bing Chat.
+                        Working on Microsoft Bing frontend platform which is the UI rendering layer as well ingress for traffic on
+                        Bing.com.
                       </li>
                       <li>
-                        Also working on the integration test platform for Microsoft Bing frontend and improving the
-                        developer agility.
+                        Implemented sign-in for personal accounts using OpenIdConnect which handles billions of sign-ins every day on Bing.com.
+                      </li>
+                      <li>
+                        Created an end-to-end testing framework to test LLM response for Copilot with simple JSON based test authoring.
+                      </li>
+                      <li>
+                        Worked on integration test platform Microsoft Bing frontend and improved developer agility.
                       </li>
                     </ul>
                   </p>
