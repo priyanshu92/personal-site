@@ -1,0 +1,280 @@
+LOCAL BRAND ASSETS — SOURCES AND RIGHTS NOTICES
+Retrieved: 2026-09-11
+
+Purpose
+These marks identify the website owner's actual former employers and referenced
+products. They do not imply sponsorship, endorsement, partnership, or ownership
+of the brands. Trademark rights remain with their respective owners.
+
+Copyright status is not trademark permission. Wikimedia Commons' file-specific
+public-domain assessments are recorded below, not asserted as universal legal
+determinations. They do not mean that the trademark owners licensed the marks.
+The Commons website's general text license is not the license of every image.
+
+IMPORTANT MICROSOFT RESTRICTION
+Microsoft's trademark guidelines state that its logos, app/product icons, and
+designs require an express license. Download availability and the intended
+identification-only use do not establish such permission. No Microsoft
+authorization has been established by sourcing these files; review applicable
+rights and obtain any necessary permission before publishing them.
+https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks
+Power Platform and Visual Studio Code additionally publish the specific
+permitted-use terms recorded below. These limited permissions are not an
+open-content license or a blanket approval of every personal-portfolio use.
+
+Technical treatment
+All ten files are local, self-contained SVGs with explicit viewBox attributes.
+No scripts, event handlers, foreignObject, embedded images/fonts, external
+resources, or runtime dependencies are included. Artwork paths and source brand
+colors/gradients are retained, except the explicitly removed background shapes
+described below. XML serialization/whitespace and editor-only metadata were
+normalized in the original seven assets; these changes do not redraw the marks.
+The additional Power Pages, Power Platform, and Visual Studio Code assets are
+byte-for-byte copies of the SVGs in their first-party icon archives; inspection
+found no unsafe content requiring removal. Do not recolor these assets
+with CSS filters to match the website's paper/forest-green or evening themes.
+Normal SVG namespace identifiers are not downloaded resources.
+
+microsoft.svg
+  Mark: Microsoft's four-color square symbol, without the wordmark.
+  Creator credited by Commons: Microsoft.
+  Download:
+  https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg
+  Source/rights record:
+  https://commons.wikimedia.org/w/index.php?title=File:Microsoft_logo.svg&oldid=1236905760
+  That record identifies www.microsoft.com as the source, applies PD-shape
+  (simple geometry), and explicitly marks the logo as trademarked.
+  https://commons.wikimedia.org/wiki/Template:PD-shape
+  Changes: removed the light-gray rectangular background; retained all four
+  colored square paths and their original fills. viewBox: 0 0 23 23.
+  Downloaded-original SHA-256:
+  3d41251f93127b4b42c2f69fa423d204946cf9c307d786ea36b8d9bef4179282
+
+copilot.svg
+  Mark: MICROSOFT Copilot's multicolor ribbon, NOT GitHub Copilot.
+  First-party download:
+  https://copilot.microsoft.com/static/cmc/favicon.svg
+  Provenance: https://copilot.microsoft.com/ links this SVG as its favicon and
+  also embeds the corresponding multicolor ribbon in its interface.
+  Creator/brand owner: Microsoft.
+  No open-content license was found for this first-party artwork. It is NOT
+  represented here as public domain, MIT-licensed, or licensed by Wikimedia.
+  See the IMPORTANT MICROSOFT RESTRICTION above.
+  Changes: added viewBox="0 0 120 120" matching the source's 120 x 120 canvas.
+  All six ribbon paths and all gradient colors/opacity stops are retained.
+  Downloaded-original SHA-256:
+  c5b0ad0fc0c6fd9c49131a972635e1aba4e65a0d0385c01d5be8735921d7ef8b
+
+bing.svg
+  Mark: Microsoft Bing's blue/cyan Fluent symbol, without a wordmark.
+  Creator credited by Commons: Microsoft.
+  Download:
+  https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg
+  Source/rights record:
+  https://commons.wikimedia.org/w/index.php?title=File:Bing_Fluent_Logo.svg&oldid=1086994202
+  That record identifies https://www.bing.com/ as the source, applies PD-logo,
+  and explicitly marks the logo as trademarked.
+  https://commons.wikimedia.org/wiki/Template:PD-logo
+  Changes: XML serialization only; retained paths and blue/cyan gradients.
+  viewBox: 0 0 678 1024.
+  Downloaded-original SHA-256:
+  ff0f5b38b23fcf9bdc14088630c7e06e0f60d654827b709a4abd53a58ad603ef
+
+ge.svg
+  Mark: General Electric's blue GE monogram and circular ornament.
+  Creator credited by Commons: General Electric Company.
+  Download:
+  https://upload.wikimedia.org/wikipedia/commons/f/ff/General_Electric_logo.svg
+  Source/rights record:
+  https://commons.wikimedia.org/w/index.php?title=File:General_Electric_logo.svg&oldid=1269952774
+  The record traces the upload to the English Wikipedia file and applies
+  PD-US-expired, with a trademark warning. This is an expired-copyright
+  assessment for the United States, NOT a new license from General Electric.
+  The linked copyright discussion documents the historical logo:
+  https://commons.wikimedia.org/wiki/Commons:Village_pump/Copyright/Archive/2013/12#General_Electric_logo
+  https://commons.wikimedia.org/wiki/Template:PD-US-expired
+  Changes: removed the white backing disk for transparency; retained the blue
+  monogram/border path and its original #3B73B9 fill. Added viewBox: 0 0 500 500.
+  Downloaded-original SHA-256:
+  729c45f679eee363ea551066e4b0183b4b701b7362bf1cdd68109982232d836b
+
+infosys.svg
+  Mark: Infosys's blue wordmark.
+  Creator credited by Commons: Infosys.
+  Download:
+  https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg
+  Source/rights record:
+  https://commons.wikimedia.org/w/index.php?title=File:Infosys_logo.svg&oldid=1252405683
+  The record identifies this first-party Infosys publication as its source:
+  http://www.infosys.com/sap/documents/sap-practice.pdf
+  The source record applies PD-textlogo (simple wordmark), with a trademark
+  warning. This assessment applies to the mark, not the entire source PDF.
+  https://commons.wikimedia.org/wiki/Template:PD-textlogo
+  Changes: removed Inkscape/RDF editor metadata, off-canvas PDF footer text,
+  and its off-canvas white separator line. Retained the original three
+  wordmark paths, transforms, and #3781c2 fill; added viewBox: 0 0 400 160.
+  Downloaded-original SHA-256:
+  6f3b825f71484c5cb4d211b1865dfe4250882ea4da35baaaf220030532e55fde
+
+  Retained source-document notice from the removed off-canvas PDF text:
+  © 2007 Infosys Technologies Limited, Bangalore, India. Infosys believes the
+  information in this publication is accurate as of its publication date;
+  such information is subject to change without notice. Infosys acknowledges
+  the proprietary rights of the trademarks and product names of other
+  companies mentioned in this document.
+
+visual-studio.svg
+  Mark: the purple Visual Studio 2019 product mark, NOT Visual Studio Code.
+  Creator credited by Commons: Microsoft.
+  Download:
+  https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg?download=1
+  Source/rights record:
+  https://commons.wikimedia.org/w/index.php?title=File:Visual_Studio_Icon_2019.svg&oldid=1043532162
+  The record identifies https://visualstudio.microsoft.com as the source
+  and applies PD-TextLogo. The downloaded SVG title is
+  "BrandVisualStudioWin2019". Microsoft's trademark restrictions still apply.
+  https://commons.wikimedia.org/wiki/Template:PD-textlogo
+  Changes: converted the source's simple CSS classes to equivalent SVG
+  presentation attributes; retained mask, highlight, paths, and purple fills.
+  viewBox: 0 0 96 95.51.
+  Downloaded-original SHA-256:
+  08a76996a3a9e1f8846d004917a7703f8a4365b304e8ac387844d24aa3516e56
+
+react.svg
+  Mark: React's atom symbol, official dark-background version (#58C4DC).
+  Attribution: React team and react.dev contributors.
+  First-party source (pinned repository revision):
+  https://github.com/reactjs/react.dev/blob/169d5c1820cd1514429bfac2a923e51dd782d37e/public/images/brand/logo_dark.svg
+  Download:
+  https://raw.githubusercontent.com/reactjs/react.dev/169d5c1820cd1514429bfac2a923e51dd782d37e/public/images/brand/logo_dark.svg
+  License evidence: the repository README explicitly licenses content
+  submitted to react.dev under Creative Commons Attribution 4.0 International:
+  https://github.com/reactjs/react.dev/blob/169d5c1820cd1514429bfac2a923e51dd782d37e/README.md#license
+  Repository license text:
+  https://github.com/reactjs/react.dev/blob/169d5c1820cd1514429bfac2a923e51dd782d37e/LICENSE-DOCS.md
+  Applicable license: CC BY 4.0.
+  https://creativecommons.org/licenses/by/4.0/
+  https://creativecommons.org/licenses/by/4.0/legalcode
+  Retain this attribution, source, license link, modification statement,
+  and disclaimer when redistributing. The license does not grant trademark
+  rights (Section 2(b)(2)).
+  Changes: XML serialization/whitespace and removal of an unused XML namespace
+  declaration only. Original geometry, title, transforms, and #58C4DC fill
+  retained. viewBox: 0 0 569 512.
+  Disclaimer notice: CC BY 4.0 Section 5 disclaims warranties and limits
+  liability. The licensed material is offered AS-IS and AS-AVAILABLE, without
+  representations or warranties, including title, merchantability, fitness,
+  non-infringement, absence of defects, or accuracy, to the extent permitted.
+  See the linked legal code for the full disclaimer and limitation of liability.
+  Downloaded-original SHA-256:
+  e5278257e728c9527af74185f73f0715ffde03d713512aded478d832665e8f24
+
+power-pages.svg
+  Mark: Microsoft's Power Pages product icon, December 2025 collection.
+  Creator/brand owner: Microsoft.
+  First-party source and specific usage terms:
+  https://learn.microsoft.com/en-us/power-platform/guidance/icons
+  Official archive linked by that page:
+  https://download.microsoft.com/download/498606aa-6d27-4f13-aa5c-1401078c153b/Power-Platform-icons-scalable.zip
+  Exact archive entry: Power Platform/PowerPages_scalable.svg
+  The source page's icon-update table records updated Power Platform icons in
+  December 2025. This file is the Power Pages mark, not Power Apps or Power BI.
+  Rights: limited Microsoft icon-use permission, NOT an open-source or
+  public-domain claim. See the reproduced archive terms below.
+  Changes: filename only; SVG bytes, purple/blue gradients, geometry, clipping,
+  transparency, and viewBox are unchanged. viewBox: 0 0 96 96.
+  Original and saved SHA-256:
+  7fdc8facba1b64c4e30fbed3d331ecab78746d0d29c29bae593b18788e870631
+
+power-platform.svg
+  Mark: Microsoft's Power Platform product-family icon, December 2025 collection.
+  Creator/brand owner: Microsoft.
+  First-party source and specific usage terms:
+  https://learn.microsoft.com/en-us/power-platform/guidance/icons
+  Official archive linked by that page:
+  https://download.microsoft.com/download/498606aa-6d27-4f13-aa5c-1401078c153b/Power-Platform-icons-scalable.zip
+  Exact archive entry: Power Platform/PowerPlatform_scalable.svg
+  This is the Power Platform family mark, not a separate PAC CLI, Power Platform
+  Tools extension, or agentic-authoring/skills logo. Do not label it as such.
+  Rights: limited Microsoft icon-use permission, NOT an open-source or
+  public-domain claim. See the reproduced archive terms below.
+  Changes: filename only; SVG bytes, green/teal/blue gradients, geometry,
+  clipping, transparency, and viewBox are unchanged. viewBox: 0 0 96 96.
+  Original and saved SHA-256:
+  c58871d6adac53a51512341e65055d0ec12f29948a001666c11dc7b5bb5fe142
+
+  Retained notice for both Power Platform archive assets
+  Source document in the same archive: CELA_Licenses_Public_Use_Icons.pdf
+  The following is its text (PDF bullet glyphs normalized to plain text):
+
+  Microsoft Power Platform Architecture Icons
+
+  Helping our customers design and architect new solutions is core to the
+  Power Platform Architecture Center's mission. Architecture diagrams like
+  those included in our guidance can help communicate design decisions and
+  the relationships between components of a given workload. On this page you
+  will find an official collection of Power Platform architecture icons
+  including Power Platform product icons to help you build a custom
+  architecture diagram for your next solution.
+
+  Do's
+  - Use the icons to illustrate how products can work together
+  - In diagrams, we recommend to include the product name somewhere close
+    to the icon
+  - Use the icons as they would appear within the product
+
+  Don'ts
+  - Don't crop, flip or rotate icons
+  - Don't distort or change icon shape in any way
+  - Don't use Microsoft product icons to represent your product or service
+
+  Terms
+  Microsoft permits the use of these icons in architectural diagrams,
+  training materials, or documentation. You may copy, distribute, and display
+  the icons only for the permitted use unless granted explicit permission by
+  Microsoft. Microsoft reserves all other rights.
+
+  Additional guidance from the archive's Power_Platform_Icons_FAQ.pdf:
+  The full name of the service should always appear near the icon, but not so
+  close that it looks like it is overlapping the icon. Power Platform icons
+  may only represent the Microsoft product they were designed for, not your
+  own product or service. Proportional resizing is allowed; cropping,
+  flipping, rotating, distorting, or changing the shape is not.
+
+vscode.svg
+  Mark: the blue Visual Studio Code "stable" icon, NOT Visual Studio.
+  Creator/brand owner: Microsoft.
+  First-party source and specific usage terms:
+  https://code.visualstudio.com/brand
+  Official archive linked by that page:
+  https://code.visualstudio.com/assets/branding/visual-studio-code-icons.zip
+  Exact archive entry: visual-studio-code-icons/vscode.svg
+  Packaged notice: visual-studio-code-icons/README.txt, Version: 2021-06-21.
+  Changes: filename/location only; SVG bytes, blue colors, geometry, masks,
+  internal filters, highlight, and transparency unchanged. viewBox: 0 0 100 100.
+  Original and saved SHA-256:
+  74ad401c6487a0dc5af1f6b2935556ab2d3553ae45effc7e1697b4d117d046b6
+
+  Retained packaged branding and legal notice:
+  Before using the Visual Studio Code names and icons, please make sure
+  you've read and accepted our branding guidelines:
+  https://code.visualstudio.com/brand
+  Visual Studio Code, VS Code, and the Visual Studio Code icon are trademarks
+  of Microsoft Corporation. All rights reserved.
+
+  Rights: product-specific brand usage guidelines, NOT a claim that the
+  artwork is covered by the editor source code's MIT license.
+  The guidelines permit icon use in documentation/tutorials, blog posts,
+  and news articles about Visual Studio Code. They prohibit using it to
+  identify or promote your own offering or extension, imply association,
+  integrate it into your own logo, sell merchandise, or create a logo/name
+  lock-up. Use the full name "Visual Studio Code" on first reference.
+  Preserve clearing space equal to 25% of the "fish" motif's scale.
+  The icon identifies the editor, not the Power Platform Tools extension
+  itself. For uses not covered by the guidelines, seek brand permission.
+
+GoDoctr — no asset supplied
+The supplied authoritative site https://www.godoctr.com/ returned HTTP 403.
+An archive-index request for logo assets returned HTTP 503. No authentic logo
+could be verified from these sources. No mark from a similarly named company
+was substituted. Leave this employer as text unless a verified asset is found.
