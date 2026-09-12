@@ -1,674 +1,1171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <title>Priyanshu Agrawal</title>
-    <!-- Meta -->
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description"
-      content="Priyanshu Agrawal | Full Stack Engineer | C# | React | JavaScript (JS) | .NET | ASP.NET | Jenkins | Kubernetes | Docker | Helm | Software Development" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Priyanshu Agrawal | Principal Software Engineer at Microsoft</title>
+    <meta
+      name="description"
+      content="Priyanshu Agrawal, Principal Software Engineer at Microsoft. Power Pages developer tools, agentic authoring, open-source AI skills, and community speaking."
+    />
     <meta name="author" content="Priyanshu Agrawal" />
+    <meta name="theme-color" content="#f6f8fb" />
     <meta name="msvalidate.01" content="E114B329F5B7CDE718A51E784CD760E1" />
-    <link rel="shortcut icon" href="favicon.ico" />
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic" rel="preload" as="font" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="preload" as="font" />
-
-    <!-- FontAwesome JS -->
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
-      integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- Global CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Priyanshu Agrawal | Software, sites &amp; developer tools"
+    />
+    <meta
+      property="og:description"
+      content="Principal Software Engineer at Microsoft, leading agentic authoring for Power Pages and building pro-developer tools. Speaker at Power Platform Community Conference."
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script src="assets/js/theme.js"></script>
+    <link rel="stylesheet" href="assets/css/studio.css" />
+    <script src="assets/js/main.js" defer></script>
   </head>
-
   <body>
-    <!-- ******HEADER****** -->
-    <header class="header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col">
-            <img width="200" height="200" class="profile-image img-fluid float-start rounded-circle"
-              src="assets/images/priyanshu.JPG" alt="Priyanshu Agrawal" />
-            <div class="profile-content">
-              <h1 class="name">Priyanshu Agrawal</h1>
-              <h2 class="desc">Software Engineer</h2>
-              <ul class="social list-inline">
-                <li class="list-inline-item">
-                  <a rel="noopener" title="Twitter" name="twitter" target="_blank" href="https://twitter.com/priyanshu1312"><i
-                      class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a rel="noopener" title="LinkedIn" name="linkedin" target="_blank" href="https://www.linkedin.com/in/agrawalpriyanshu/"><i
-                      class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a rel="noopener" title="GitHub" name="github" target="_blank" href="https://github.com/priyanshu92"><i
-                      class="fab fa-github"></i></a>
-                </li>
-                <li class="list-inline-item">
-                  <a target="_blank" href="https://priyanshu.dev" rel="noopener" title="Priyanshu's Blog"><i
-                      class="fab fa-blogger-b"></i><span class="sr-only">Blog</span></a>
-                </li>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#home" aria-label="Priyanshu Agrawal, home">
+        <img
+          class="header-portrait"
+          src="assets/images/priyanshu.jpg"
+          width="36"
+          height="36"
+          alt=""
+        />
+        <span>Priyanshu Agrawal</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#opensource">Open source</a>
+        <a href="#about">About</a>
+        <a href="#speaking">Speaking</a>
+        <a
+          href="https://priyanshu.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Writing <span aria-hidden="true">&#8599;</span
+          ><span class="sr-only"> (opens in a new tab)</span></a
+        >
+        <a href="#contact">Say hello</a>
+      </nav>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Switch to dark mode"
+        hidden
+      >
+        <svg
+          class="moon-icon"
+          width="17"
+          height="17"
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M20.5 14A8.6 8.6 0 0 1 10 3.5 8.7 8.7 0 1 0 20.5 14Z"
+            stroke="currentColor"
+            stroke-width="1.5"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="sun-icon"
+          width="17"
+          height="17"
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="4"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+          <path
+            d="M12 1v2m0 18v2M1 12h2m18 0h2M4.2 4.2l1.4 1.4m12.8 12.8 1.4 1.4M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"
+            stroke="currentColor"
+            stroke-width="1.5"
+          />
+        </svg>
+        <span data-theme-label>Dark</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="home" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot" aria-hidden="true"></span> Software / Sites
+            / Developer tools
+          </p>
+          <h1 id="hero-heading">
+            Building the tools<br />behind the <em>sites.</em>
+          </h1>
+          <p class="hero-intro">Hi, I'm Priyanshu.</p>
+          <p class="hero-description">
+            A <strong>Principal Software Engineer at Microsoft</strong>, working
+            on Power Pages. I build pro-developer tools and lead agentic
+            authoring&mdash;helping people turn ideas into websites.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work"
+              >Explore my work <span aria-hidden="true">&#8595;</span></a
+            >
+            <a class="text-link" href="#about"
+              >A little about me <span aria-hidden="true">&#8594;</span></a
+            >
+          </div>
+          <p class="location">
+            Bengaluru, India
+            <span aria-hidden="true">&middot;</span> Glad you found your way
+            here.
+          </p>
+        </div>
+        <nav class="focus-index" aria-label="Current projects">
+          <p class="eyebrow">Current focus <span>Microsoft</span></p>
+          <a href="#agentic-authoring">
+            <img
+              src="assets/images/logos/power-pages.svg"
+              width="32"
+              height="32"
+              alt=""
+            />
+            <span
+              >Power Pages<small>Agentic authoring &amp; AI skills</small></span
+            >
+            <span aria-hidden="true">&#8599;</span>
+          </a>
+          <a href="#pac-cli">
+            <img
+              src="assets/images/logos/power-platform.svg"
+              width="32"
+              height="32"
+              alt=""
+            />
+            <span>PAC CLI<small>Pro-developer tooling</small></span>
+            <span aria-hidden="true">&#8599;</span>
+          </a>
+          <a href="#vscode">
+            <img
+              src="assets/images/logos/vscode.svg"
+              width="32"
+              height="32"
+              alt=""
+            />
+            <span
+              >Power Platform Tools<small
+                >Inside Visual Studio Code</small
+              ></span
+            >
+            <span aria-hidden="true">&#8599;</span>
+          </a>
+          <p class="focus-index-footer">
+            <span class="status-dot" aria-hidden="true"></span> Ideas into
+            websites.
+          </p>
+        </nav>
+      </section>
+
+      <div class="welcome-strip wrap">
+        <p>Engineer by profession.<br /><span>Builder by nature.</span></p>
+        <p>
+          From large-scale systems to small, useful tools.<br />A few things
+          I've helped bring into the world.
+        </p>
+        <a href="#work" class="round-link" aria-label="See selected work"
+          ><span aria-hidden="true">&#8595;</span></a
+        >
+      </div>
+
+      <section class="section wrap" id="work" aria-labelledby="work-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-index">01 / Building now</p>
+            <h2 id="work-heading">From idea to deployment.</h2>
+          </div>
+          <p>
+            Currently: Power Pages.<br />Developer tools &amp; agentic
+            authoring.
+          </p>
+        </div>
+        <div class="work-grid current-work">
+          <article class="project-card project-featured" id="agentic-authoring">
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="16"
+                    height="16"
+                    alt=""
+                    loading="lazy"
+                  />Microsoft</span
+                >
+                <span aria-hidden="true">/</span> Power Pages
+                <span class="now-tag">NOW</span>
+              </p>
+              <h3>
+                <a
+                  href="https://aka.ms/ppskills"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  From an idea to a Power Pages site
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span>
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+              </h3>
+              <p>
+                I lead agentic authoring for Power Pages, developing AI skills
+                that help developers scaffold, build, and deploy sites through
+                conversational workflows.
+              </p>
+              <p class="project-followup">
+                Our Power Pages plugin is part of Microsoft's open-source Power
+                Platform Skills repository, supporting modern frameworks
+                including React, Angular, Vue, and Astro.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>AI skills</li>
+                <li>Power Pages</li>
+                <li>GitHub Copilot</li>
+                <li>Claude Code</li>
+              </ul>
+              <a
+                class="text-link project-link"
+                href="https://github.com/microsoft/power-platform-skills/tree/main/plugins/power-pages"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Explore the Power Pages skills
+                <span aria-hidden="true">&#8599;</span>
+                <span class="sr-only"> (opens in a new tab)</span>
+              </a>
+            </div>
+            <div class="project-visual authoring-visual" aria-hidden="true">
+              <p class="eyebrow">Power Pages / Agentic authoring</p>
+              <div class="product-emblem">
+                <img
+                  src="assets/images/logos/power-pages.svg"
+                  width="148"
+                  height="148"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="authoring-flow">
+                <span>Scaffold</span><i>&#8594;</i><span>Build</span
+                ><i>&#8594;</i><span>Deploy</span>
+              </div>
+              <p class="frameworks">React / Angular / Vue / Astro</p>
+            </div>
+          </article>
+          <article class="project-card" id="pac-cli">
+            <div class="project-visual cli-visual" aria-hidden="true">
+              <img
+                src="assets/images/logos/power-platform.svg"
+                width="44"
+                height="44"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="16"
+                    height="16"
+                    alt=""
+                    loading="lazy"
+                  />Microsoft</span
+                >
+                <span aria-hidden="true">/</span> Pro-developer tools
+              </p>
+              <h3>
+                <a
+                  href="https://learn.microsoft.com/en-us/power-platform/developer/cli/introduction"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Power Platform CLI
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span>
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+              </h3>
+              <p>
+                I work on the pro-developer tooling behind Power Pages,
+                including the Power Platform CLI (PAC CLI)&mdash;connecting
+                local development with authentication, environments, and site
+                deployment.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>PAC CLI</li>
+                <li>.NET</li>
+                <li>Power Pages</li>
               </ul>
             </div>
-            <!--//profile-->
-          </div>
-          <!--//col-->
-          <div class="col-12 col-md-auto">
-            <div class="dark-mode-switch d-flex">
-              <div class="form-check form-switch mx-auto mx-md-0">
-                <input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
-                <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-              </div>
+          </article>
+          <article class="project-card" id="vscode">
+            <div class="project-visual editor-visual" aria-hidden="true">
+              <img
+                src="assets/images/logos/vscode.svg"
+                width="44"
+                height="44"
+                alt=""
+                loading="lazy"
+              />
             </div>
-            <!--//dark-mode-switch-->
-            <a class="btn btn-cta-primary" href="#name"><i class="fas fa-paper-plane"></i> Contact Me</a>
-          </div>
-          <!--//col-->
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="16"
+                    height="16"
+                    alt=""
+                    loading="lazy"
+                  />Microsoft</span
+                >
+                <span aria-hidden="true">/</span> Editor experiences
+              </p>
+              <h3>
+                <a
+                  href="https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Power Pages, inside VS Code
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span>
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+              </h3>
+              <p>
+                Bringing Power Pages into the editor through the Power Platform
+                Tools VS Code extension. My work spans pro-developer experiences
+                and AI-assisted workflows that help developers build and ship
+                sites faster.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>VS Code</li>
+                <li>Power Pages</li>
+                <li>AI-assisted development</li>
+              </ul>
+            </div>
+          </article>
         </div>
-        <!--//row-->
-      </div>
-      <!--//container-->
-    </header>
-    <!--//header-->
+      </section>
 
-    <div class="container sections-wrapper py-5">
-      <div class="row">
-        <div class="primary col-lg-8 col-12">
-          <section class="about section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">About Me</h2>
-              <div class="content">
-                <p>
-                  Hi!👋 I am a full stack developer with 9 years of experience in .NET, ASP.NET and
-                  ReactJS/JavaScript
-                </p>
-                <ul>
-
-                  <li>I have experience in building large scale distributed systems.</li>
-                  <li>
-                    I am a technology enthusiast and a good learner with ability to learn new
-                    technologies on my own.
-                  </li>
-                  <li>I have authored the following Visual Studio extensions:</li>
-                  <ul>
-                    <li><a target="_blank"
-                        href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.SurroundSelection">Surround
-                        Selection</a></li>
-                    <li><a target="_blank"
-                        href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.AsyncMethodNameFixer">Async
-                        Method Name Fixer</a></li>
-                  </ul>
-                  <li>I have also contributed to <a target="_blank"
-                      href="https://github.com/dowjones/react-dropdown-tree-select#contributors">react-dropdown-tree-select</a>,
-                    a lightweight and fast tree select component for react.</li>
-                </ul>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="projects section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Projects</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://www.bing.com" target="_blank">User Authentication on Bing.Com</a>
-                    <span class="badge badge-theme">Microsoft</span>
-                  </h3>
-                  <p class="summary">
-                    Implemented sign-in using OpenIdConnect protocol to sign-in users with their personal (aka MSA)
-                    account.
-                    <br />
-                  <ul>
-                    <li>Sign-In using Microsoft.Identity.Web using OpenIdConnect + Cookies based authentication.</li>
-                    <li>Implemented bearer authentication as well to allow stateless auth.</li>
-                    <li>Reduced the auth cookie size by 85% by implementing a custom cookie serializer instead of using
-                      the default which ships with Asp.Net Core</li>
-                  </ul>
-                  Tech Stack:
-                  <span class="badge badge-theme">C#</span>&nbsp;
-                  <span class="badge badge-theme">Asp.Net Core</span>&nbsp;
-                  </p>
-                </div>
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://copilot.microsoft.com" target="_blank">End-to-End testing framework for Copilot</a>
-                    <span class="badge badge-theme">Microsoft</span>
-                  </h3>
-                  <p class="summary">
-                    An end-to-end testing framework which tests the LLM response based on configurable thresholds and
-                    assertions. Removes the burden of manual testing before shipping a new release every time.
-                    <br />
-                  <ul>
-                    <li>Simple JSON based test authoring which makes writing tests very easy.</li>
-                    <li>Fully integrated with Azure DevOps which makes viewing test results within the pipeline.</li>
-                    <li>Written in C# using Playwright</li>
-                  </ul>
-                  Tech Stack:
-                  <span class="badge badge-theme">C#</span>&nbsp;
-                  <span class="badge badge-theme">Playwright</span>&nbsp;
-                  <span class="badge badge-theme">Azure DevOps</span>&nbsp;
-                  </p>
-                </div>
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://www.ge.com/digital/applications/asset-performance-management-apm-software/industrial-data-diagnostics"
-                      target="_blank">Industrial Data Diagnostics</a>
-                    <span class="badge badge-theme">GE Digital</span>
-                  </h3>
-                  <p class="summary">
-                    Industrial Data Diagnostics delivers next-generation insights into asset health and overall
-                    performance. This cloud-based solution provides Comparative Performance Analytics and Industry Peer
-                    Benchmarking to uncover the true cost, reliability and availability of assets.
-                    <br />
-                  <ul>
-                    <li>🚀 Designed and improved an existing data processing tool which reduced the data ingestion time
-                      by 90%.</li>
-                    <li>🧪 Written RESTful APIs along with unit tests and end to end API tests.</li>
-                    <li>🚀 Used multi-level caching (InMemory + Distributed) for backend APIs to serve consecutive
-                      requests as fast as possible.</li>
-                    <li>Implemented Retry pattern using Polly for consuming external APIs.</li>
-                    <li>Implemented JWT bearer authentication and custom authorization using ASP.NET Core authorization
-                      policies.</li>
-                    <li>Consumed created the REST APIs in a React based web app along with unit tests. Implemented the
-                      UI using React and hooks.</li>
-                    <li>Implemented end to end tests for the frontend using Protractor and JavaScript.</li>
-                  </ul>
-                  Tech Stack:
-                  <span class="badge badge-theme">C#</span>&nbsp;
-                  <span class="badge badge-theme">React</span>&nbsp;
-                  <span class="badge badge-theme">ASP.NET</span>&nbsp;
-                  <span class="badge badge-theme">DevExpress</span>&nbsp;
-                  <span class="badge badge-theme">Sql Server</span>&nbsp;
-                  <span class="badge badge-theme">Jenkins</span>&nbsp;
-                  </p>
-                  <p>
-                    <a class="more-link"
-                      href="https://www.ge.com/digital/applications/asset-performance-management-apm-software/industrial-data-diagnostics"
-                      target="_blank"><i class="fas fa-external-link-alt"></i>More Details</a>
-                  </p>
-                </div>
-
-                <div class="item">
-                  <h3 class="title">
-                    <a href="#">APM Scheduler Dashboard</a>
-                    <span class="badge badge-theme">GE Digital</span>
-                  </h3>
-                  <p class="summary">
-                    This dashboard is a one stop shop into all the scheduled jobs in APM. Users can view the logs of old
-                    jobs, download logs &amp; artifacts generated by the jobs etc.
-                    <br />
-                  <ul>
-                    <li>Created the entire application from scratch using React to monitor the jobs executed by the APM
-                      Scheduler.</li>
-                    <li>Implemented real-time communication with SignalR to show the progress of the jobs which are
-                      currently running.</li>
-                    <li>Authored unit tests for the app using <a target="_blank"
-                        href="https://testing-library.com/docs/react-testing-library/intro/">react-testing-library</a>.
-                    </li>
-                    <li>Authored end to end UI automation tests as well.</li>
-                    <li>Created the entire CI/CD pipeline to build, test, and deploy the app using Jenkins.</li>
-                  </ul>
-                  Tech Stack:
-                  <span class="badge badge-theme">React</span>&nbsp;
-                  <span class="badge badge-theme">JavaScript</span>&nbsp;
-                  <span class="badge badge-theme">Groovy</span>&nbsp;
-                  </p>
-                </div>
-
-                <div class="item">
-                  <h3 class="title">
-                    <a href="#">Order Management System (OMS)</a>
-                    <span class="badge badge-theme">Infosys Ltd.</span>
-                  </h3>
-                  <p class="summary">
-                    IT companies win a lot of deals and get a lot of projects from different clients. Once the projects
-                    start coming then it is difficult to keep track of all the details of projects and the financials on
-                    which the company and the client agreed on. Infosys uses Order Management System for this very
-                    purpose of storing information of each and every project it gets, mapping it with the client, saving
-                    the financial details of the project and also the details like which unit will be working on that
-                    project and so on.
-                    <br />
-                    Responsibilities:
-                  <ul>
-                    <li>Understanding the workflow of the system.</li>
-                    <li>Working on new enhancements involving backend and frontend programming</li>
-                    <li>Creating documentation of the work done in enhancements like Impact Analysis Document, User Test
-                      Plan etc.</li>
-                  </ul>
-                  Tech Stack:
-                  <span class="badge badge-theme">.Net</span>&nbsp;
-                  <span class="badge badge-theme">ASP.NET</span>&nbsp;
-                  <span class="badge badge-theme">Sql Server</span>&nbsp;
-                  <span class="badge badge-theme">jQuery</span>&nbsp;
-                  </p>
-                </div>
-
-                <a class="btn btn-cta-secondary" href="https://www.linkedin.com/in/agrawalpriyanshu/">More on LinkedIn
-                  <i class="fas fa-chevron-right pt-1"></i></a>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="projects section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Personal Projects (Open Source)</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://github.com/dowjones/react-dropdown-tree-select" target="_blank">React Dropdown Tree
-                      Select (Open Source Contribution)</a>
-                  </h3>
-                  <p class="summary">
-                    A lightweight and fast control to render a select component that can display hierarchical tree data.
-                    In addition, the control shows the selection in pills and allows user to search the options for
-                    quick filtering and selection. Also supports displaying partially selected nodes.
-                    <br /><br />
-                    Tech Stack:
-                    <span class="badge badge-theme">React</span>&nbsp;
-                    <span class="badge badge-theme">JavaScript</span>&nbsp;
-                  </p>
-                </div>
-
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.SurroundSelection"
-                      target="_blank">Surround Selection</a>
-                  </h3>
-                  <p class="summary">
-                    This is a visual studio extension born out of my need to wrap some selected text quickly around some
-                    delimiters. It is currently published in Visual Studio marketplace and the source code is available
-                    at github.
-                    <br /><br />
-                    Tech Stack:
-                    <span class="badge badge-theme">C#</span>&nbsp;
-                    <span class="badge badge-theme">VS SDK</span>&nbsp;
-                  </p>
-                  <p>
-                    <a class="more-link" href="https://github.com/priyanshu92/SurroundSelection" target="_blank"><i
-                        class="fas fa-external-link-alt"></i>More Details</a>
-                  </p>
-                </div>
-
-                <div class="item">
-                  <h3 class="title">
-                    <a href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.AsyncMethodNameFixer"
-                      target="_blank">Async Method Name Fixer</a>
-                  </h3>
-                  <p class="summary">
-                    A Roslyn analyzer to analyze and fix method names for asynchronous methods.
-                    <br /><br />
-                    Tech Stack:
-                    <span class="badge badge-theme">C#</span>&nbsp;
-                    <span class="badge badge-theme">VS SDK</span>&nbsp;
-                  </p>
-                  <p>
-                    <a class="more-link" href="https://github.com/priyanshu92/AsyncMethodNameFixer" target="_blank"><i
-                        class="fas fa-external-link-alt"></i>More Details</a>
-                  </p>
-                </div>
-
-                <a class="btn btn-cta-secondary" href="https://github.com/priyanshu92">More on GitHub <i
-                    class="fas fa-chevron-right pt-1"></i></a>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
-
-          <section class="experience section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Work Experience</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title">
-                    Senior Software Engineer -
-                    <span class="place"><a target="_blank" href="https://microsoft.com">Microsoft</a></span>
-                    <span class="year">(Sep 2022 - Present)</span>
-                  </h3>
-                  <p>
-                  <ul>
-                    <li>
-                      Working on Microsoft Bing frontend platform which is the UI rendering layer as well ingress for
-                      traffic on
-                      Bing.com.
-                    </li>
-                    <li>
-                      Implemented sign-in for personal accounts using OpenIdConnect which handles billions of sign-ins
-                      every day on Bing.com.
-                    </li>
-                    <li>
-                      Created an end-to-end testing framework to test LLM response for Copilot with simple JSON based
-                      test authoring.
-                    </li>
-                    <li>
-                      Worked on integration test platform Microsoft Bing frontend and improved developer agility.
-                    </li>
-                  </ul>
-                  </p>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="title">
-                    Senior Software Engineer -
-                    <span class="place"><a target="_blank" href="https://www.ge.com/digital">GE Digital</a></span>
-                    <span class="year">(Oct 2017 - Jun 2022)</span>
-                  </h3>
-                  <p>
-                    Currently building Industrial Data Diagnostics, a scalable and robust cloud based SaaS product
-                    which provides enterprise benchmarking capabilities. It also helps customers in
-                    identifying data quality issues, maintenance issues and opportunity cost based
-                    on millions of asset and work history data.
-                  </p>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="title">
-                    Senior Systems Engineer -
-                    <span class="place"><a target="_blank" href="https://infosys.com">Infosys Ltd.</a></span>
-                    <span class="year">(Sep 2015 - Oct 2017)</span>
-                  </h3>
-                  <p>
-                  <ul>
-                    <li>Worked on Microsoft technology stack comprising of .NET Framework, ASP.NET and
-                      Sql Server.</li>
-                    <li>Created HTTP APIs for the Order Management System (OMS) product.</li>
-                    <li>Created UI with best practices and improved user experience of the product.</li>
-                  </ul>
-                  </p>
-                </div>
-                <!--//item-->
-
-                <div class="item">
-                  <h3 class="title">
-                    Software Engineer Intern - <span class="place"><a target="_blank"
-                        href="https://www.godoctr.com/">GoDoctr</a></span>
-                    <span class="year">(June 2014)</span>
-                  </h3>
-                  <p>
-                  <ul>
-                    <li>Created a RESTful APIs for the android application of the product.</li>
-                    <li> Created the domain model providing CRUD functionality for various entities.</li>
-                  </ul>
-                  </p>
-                </div>
-                <!--//item-->
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-
-          <section class="contact section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Contact</h2>
-              <div class="content">
-                <form id="contactForm" name="contact" method="post" data-netlify="true">
-                  <div class="mb-3">
-                    <input required name="name" type="name" id="name" class="form-control" placeholder="Name">
-                  </div>
-                  <div class="mb-3">
-                    <input required name="email" type="email" id="email" class="form-control" placeholder="Email">
-                  </div>
-                  <div class="mb-3">
-                    <textarea required class="form-control" id="message" rows="5" name="message"
-                      placeholder="Message"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="btn btn-cta-primary"><i class="fas fa-paper-plane"></i>Send</button>
-                  </div>
-                </form>
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </section>
-          <!--//section-->
+      <section
+        class="section impact-section wrap"
+        id="impact"
+        aria-labelledby="impact-heading"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-index">02 / Earlier work</p>
+            <h2 id="impact-heading">Engineering at scale.</h2>
+          </div>
+          <p>
+            Earlier chapters &mdash; Bing, Copilot,<br />GE Digital &amp;
+            Infosys
+          </p>
         </div>
-        <!--//primary-->
-        <div class="secondary col-lg-4 col-12">
-          <aside class="info aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading sr-only">Basic Information</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Bengaluru, India
-                  </li>
-                  <li>
-                    <i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
-                      href="mailto:priyanshuagrawal@outlook.com">priyanshuagrawal@outlook.com</a>
-                  </li>
-                </ul>
-              </div>
-              <!--//content-->
+        <div class="work-grid previous-work">
+          <article class="project-card">
+            <div class="impact-mark" aria-hidden="true">
+              <img
+                src="assets/images/logos/copilot.svg"
+                width="40"
+                height="40"
+                alt=""
+                loading="lazy"
+              />
+              <p class="impact-number">LLM<span>response testing</span></p>
             </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//aside-->
-
-          <aside class="skills aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Skills</h2>
-              <div class="content">
-                <div class="skillset">
-                  <div class="item">
-                    <h3 class="level-title">
-                      C# &amp; .Net<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"
-                        title="I have about 6 years of experience developing enterprise applications in C#"><i
-                          class="fas fa-info-circle"></i>Expert</span>
-                    </h3>
-
-                    <div class="level-bar progress">
-                      <div name="csharp dotnet experience level" class="progress-bar level-bar-inner" role="progressbar"
-                        style="width: 96%" aria-valuenow="96" aria-valuemin="0" aria-valuemax="96"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      React<span class="level-label" data-bs-toggle="tooltip" data-bs-placement="left"
-                        title="React is my primary tool of choice for frontend apps"><i
-                          class="fas fa-info-circle"></i>Expert</span>
-                    </h3>
-                    <div class="level-bar progress">
-                      <div name="react experience level" class="progress-bar level-bar-inner" role="progressbar"
-                        style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="94"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <div class="item">
-                    <h3 class="level-title">
-                      Sql<span class="level-label" data-bs-toggle="tooltip" data-placement="left"
-                        title="I have worked with Sql Server and PostgreSql"><i
-                          class="fas fa-info-circle"></i>Pro</span>
-                    </h3>
-                    <div class="level-bar progress">
-                      <div name="sql experience level" class="progress-bar level-bar-inner" role="progressbar"
-                        style="width: 86%" aria-valuenow="86" aria-valuemin="0" aria-valuemax="96"></div>
-                    </div>
-                    <!--//level-bar-->
-                  </div>
-                  <!--//item-->
-
-                  <p>
-                    <a target="_blank" class="more-link" href="https://github.com/priyanshu92"><i
-                        class="fas fa-external-link-alt"></i>More on GitHub</a>
-                  </p>
-                </div>
-              </div>
-              <!--//content-->
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="16"
+                    height="16"
+                    alt=""
+                    loading="lazy"
+                  />Microsoft</span
+                >
+                <span aria-hidden="true">/</span> AI &amp; developer tooling
+              </p>
+              <h3>
+                <a
+                  href="https://copilot.microsoft.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Confidence in every Copilot release
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span
+                  ><span class="sr-only"> (opens in a new tab)</span></a
+                >
+              </h3>
+              <p>
+                An end-to-end testing framework for Copilot's LLM responses.
+                Simple JSON test authoring, configurable assertions, and results
+                right inside Azure DevOps&mdash;less manual testing before every
+                release.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C#</li>
+                <li>Playwright</li>
+                <li>Azure DevOps</li>
+              </ul>
             </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
+          </article>
+          <article class="project-card">
+            <div class="impact-mark" aria-hidden="true">
+              <img
+                src="assets/images/logos/bing.svg"
+                width="32"
+                height="40"
+                alt=""
+                loading="lazy"
+              />
+              <p class="impact-number">85%<span>smaller auth cookies</span></p>
+            </div>
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="16"
+                    height="16"
+                    alt=""
+                    loading="lazy"
+                  />Microsoft</span
+                >
+                <span aria-hidden="true">/</span> Identity at scale
+              </p>
+              <h3>
+                <a
+                  href="https://www.bing.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >A simpler way into Bing
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span
+                  ><span class="sr-only"> (opens in a new tab)</span></a
+                >
+              </h3>
+              <p>
+                Personal-account sign-in with OpenID Connect, cookie and bearer
+                authentication. A custom ASP.NET Core serializer reduced
+                authentication cookie size by 85%.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C#</li>
+                <li>ASP.NET Core</li>
+                <li>OpenID Connect</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="impact-mark" aria-hidden="true">
+              <img
+                src="assets/images/logos/ge.svg"
+                width="40"
+                height="40"
+                alt=""
+                loading="lazy"
+              />
+              <p class="impact-number">90%<span>less ingestion time</span></p>
+            </div>
+            <div class="project-body">
+              <p class="eyebrow project-company">
+                <span class="company-label"
+                  ><img
+                    src="assets/images/logos/ge.svg"
+                    width="18"
+                    height="18"
+                    alt=""
+                    loading="lazy"
+                  />GE Digital</span
+                >
+                <span aria-hidden="true">/</span> Industrial insights
+              </p>
+              <h3>
+                <a
+                  href="https://www.ge.com/digital/applications/asset-performance-management-apm-software/industrial-data-diagnostics"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Making data work harder
+                  <span class="card-arrow" aria-hidden="true">&#8599;</span
+                  ><span class="sr-only"> (opens in a new tab)</span></a
+                >
+              </h3>
+              <p>
+                Cloud-based asset health analytics and peer benchmarking.
+                Redesigned data processing to cut ingestion time by 90%, with
+                multi-level caching, resilient APIs, and a React frontend.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>React</li>
+                <li>ASP.NET</li>
+                <li>SQL Server</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+        <details class="archive">
+          <summary>
+            <span
+              >Technical notes &mdash; more from GE Digital &amp; Infosys</span
+            >
+            <span class="details-symbol" aria-hidden="true"></span>
+          </summary>
+          <div class="archive-grid">
+            <article>
+              <p class="eyebrow company-label">
+                <img
+                  src="assets/images/logos/ge.svg"
+                  width="18"
+                  height="18"
+                  alt=""
+                  loading="lazy"
+                />GE Digital
+              </p>
+              <h3>APM Scheduler Dashboard</h3>
+              <p>
+                A React dashboard built from scratch for scheduled jobs, logs,
+                and artifacts. Live job progress with SignalR, unit tests with
+                <a
+                  href="https://testing-library.com/docs/react-testing-library/intro/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >React Testing Library</a
+                >, end-to-end UI tests, and a complete Jenkins CI/CD pipeline.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>React</li>
+                <li>JavaScript</li>
+                <li>SignalR</li>
+                <li>Groovy</li>
+              </ul>
+            </article>
+            <article>
+              <p class="eyebrow company-label">
+                <span class="inline-wordmark"
+                  ><img
+                    src="assets/images/logos/infosys.svg"
+                    width="42"
+                    height="18"
+                    alt=""
+                    loading="lazy" /></span
+                >Infosys
+              </p>
+              <h3>Order Management System</h3>
+              <p>
+                Full-stack enhancements to the system connecting client
+                projects, financials, and delivery teams. Built HTTP APIs and
+                user interfaces, alongside impact analysis and user test
+                documentation.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>.NET</li>
+                <li>ASP.NET</li>
+                <li>SQL Server</li>
+                <li>jQuery</li>
+              </ul>
+            </article>
+            <article>
+              <p class="eyebrow company-label">
+                <img
+                  src="assets/images/logos/ge.svg"
+                  width="18"
+                  height="18"
+                  alt=""
+                  loading="lazy"
+                />GE Digital / Under the hood
+              </p>
+              <h3>Industrial Data Diagnostics</h3>
+              <p>
+                REST APIs with unit and end-to-end tests, in-memory and
+                distributed caching, Polly retries, and JWT authentication with
+                custom authorization policies. React hooks, DevExpress UI, and
+                Protractor automation rounded out the frontend.
+              </p>
+              <ul class="tags" aria-label="Technologies">
+                <li>C#</li>
+                <li>Polly</li>
+                <li>DevExpress</li>
+                <li>Jenkins</li>
+              </ul>
+            </article>
+          </div>
+        </details>
+      </section>
 
-          <aside class="testimonials aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Testimonials</h2>
-              <div class="content">
-                <div class="item">
-                  <blockquote class="quote">
-                    <p>
-                      <i class="fas fa-quote-left"></i>Priyanshu is a dedicated, skilled, honest, vigilant, and
-                      conscientious engineer who also happens to be an excellent communicator; a rare and valuable set
-                      of traits in today's world. His consistent positive attitude, work ethic, and software design
-                      knowledge have been essential in getting our builds tested and shipped to production. <br />
-                      <br /> During the last three years at GE Digital, Priyanshu's foresight and diligence has helped
-                      our product team avoid design pitfalls while also building efficient solutions to client problems.
-                      In preparing and managing sprints, I counted on Priyanshu to vet implementation plans and tasks to
-                      be sure I didn't have a blind spot or knowledge gap. Priyanshu's attention to detail and pride in
-                      his work shines through at every sprint review and sets him apart as a cultural leader on our
-                      team.
-                    </p>
-                  </blockquote>
-                  <p class="source">
-                    <span class="name">John Slovensky</span><br /><span class="title">Technical Product Manager</span>
-                  </p>
-                </div>
-                <!--//item-->
-
+      <section
+        class="workbench section"
+        id="opensource"
+        aria-labelledby="workbench-heading"
+      >
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section-index">03 / Open source</p>
+              <h2 id="workbench-heading">Less friction. More flow.</h2>
+            </div>
+            <a
+              class="text-link"
+              href="https://github.com/priyanshu92"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Find me on GitHub <span aria-hidden="true">&#8599;</span
+              ><span class="sr-only"> (opens in a new tab)</span></a
+            >
+          </div>
+          <p class="section-intro">
+            Sometimes the best projects start with &ldquo;I wish this were a
+            little easier.&rdquo;<br />A few open-source ways I've scratched
+            that itch.
+          </p>
+          <div class="tools-list">
+            <article class="tool-row">
+              <div class="tool-symbol" aria-hidden="true">
+                <img
+                  src="assets/images/logos/visual-studio.svg"
+                  width="34"
+                  height="34"
+                  alt=""
+                  loading="lazy"
+                />
+              </div>
+              <div class="tool-copy">
+                <p class="eyebrow">Visual Studio extension / Author</p>
+                <h3>
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.SurroundSelection"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Surround Selection
+                    <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
                 <p>
-                  <a class="more-link" href="https://www.linkedin.com/in/agrawalpriyanshu/"><i
-                      class="fas fa-external-link-alt"></i>More on Linkedin</a>
+                  Wrap selected text in delimiters without breaking your flow. A
+                  tiny shortcut for something you do all the time.
                 </p>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
-
-          <aside class="education aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Education</h2>
-              <div class="content">
-                <div class="item">
-                  <h3 class="title"><i class="fas fa-graduation-cap"></i> B.Tech Information Technology</h3>
-                  <h4 class="university">
-                    Ajay Kumar Garg Engineering College <span class="year">(2011-2015)</span>
-                  </h4>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="title"><i class="fas fa-graduation-cap"></i>Senior Secondary</h3>
-                  <h4 class="university">
-                    Birla School, Pilani <span class="year">(2008-2010)</span>
-                  </h4>
-                </div>
-                <!--//item-->
+              <a
+                class="source-link"
+                href="https://github.com/priyanshu92/SurroundSelection"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Source <span aria-hidden="true">&#8599;</span
+                ><span class="sr-only">
+                  for Surround Selection (opens in a new tab)</span
+                ></a
+              >
+            </article>
+            <article class="tool-row">
+              <div class="tool-symbol" aria-hidden="true">
+                <img
+                  src="assets/images/logos/visual-studio.svg"
+                  width="34"
+                  height="34"
+                  alt=""
+                  loading="lazy"
+                />
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
-
-          <aside class="languages aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Languages</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                  <li class="item">
-                    <span class="title"><strong>English:</strong></span>
-                    <span class="level">Professional Proficiency <br class="visible-xs" /><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                    </span>
-                  </li>
-                  <!--//item-->
-                  <li class="item">
-                    <span class="title"><strong>Hindi:</strong></span>
-                    <span class="level">Native Speaker <br class="visible-xs" /><i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i> <i class="fas fa-star"></i>
-                    </span>
-                  </li>
-                  <!--//item-->
-                </ul>
+              <div class="tool-copy">
+                <p class="eyebrow">Roslyn analyzer / Author</p>
+                <h3>
+                  <a
+                    href="https://marketplace.visualstudio.com/items?itemName=PRIYANSHUAGRAWAL92.AsyncMethodNameFixer"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Async Method Name Fixer
+                    <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p>
+                  A little more consistency, automatically. An analyzer that
+                  spots and fixes asynchronous method names.
+                </p>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
-
-          <aside class="list music aside section">
-            <div class="section-inner shadow-sm rounded">
-              <h2 class="heading">Favorite coding music</h2>
-              <div class="content">
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="fas fa-headphones"></i> <a href="https://musictoflowby.libsyn.com/garde">Garde</a>
-                  </li>
-                  <li>
-                    <i class="fas fa-headphones"></i>
-                    <a href="https://musictoflowby.libsyn.com/irving">Irving</a>
-                  </li>
-                  <li>
-                    <i class="fas fa-headphones"></i> <a href="https://musictoflowby.libsyn.com/fitch">Fitch</a>
-                  </li>
-                </ul>
+              <a
+                class="source-link"
+                href="https://github.com/priyanshu92/AsyncMethodNameFixer"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Source <span aria-hidden="true">&#8599;</span
+                ><span class="sr-only">
+                  for Async Method Name Fixer (opens in a new tab)</span
+                ></a
+              >
+            </article>
+            <article class="tool-row">
+              <a
+                class="tool-symbol"
+                href="assets/images/logos/NOTICE.txt"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="React logo attribution (opens in a new tab)"
+                title="React logo attribution"
+              >
+                <img
+                  src="assets/images/logos/react.svg"
+                  width="38"
+                  height="34"
+                  alt=""
+                  loading="lazy"
+                />
+              </a>
+              <div class="tool-copy">
+                <p class="eyebrow">React component / Contributor</p>
+                <h3>
+                  <a
+                    href="https://github.com/dowjones/react-dropdown-tree-select"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >React Dropdown Tree Select
+                    <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p>
+                  Making hierarchical data feel approachable, with searchable
+                  trees, selection pills, and partially selected nodes.
+                </p>
               </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-          </aside>
-          <!--//section-->
+              <a
+                class="source-link"
+                href="https://github.com/dowjones/react-dropdown-tree-select#contributors"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Contributions <span aria-hidden="true">&#8599;</span
+                ><span class="sr-only">
+                  to React Dropdown Tree Select (opens in a new tab)</span
+                ></a
+              >
+            </article>
+          </div>
         </div>
-        <!--//secondary-->
-      </div>
-      <!--//row-->
-    </div>
-    <!--//masonry-->
+      </section>
 
-    <!-- ******FOOTER****** -->
-    <footer class="footer">
-      <div class="container text-center">
-        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Designed with <i class="fas fa-heart"></i> by
-          <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for
-          developers</small>
+      <section
+        class="section wrap about"
+        id="about"
+        aria-labelledby="about-heading"
+      >
+        <div class="about-story">
+          <p class="eyebrow section-index">04 / The engineer</p>
+          <h2 id="about-heading">Built on curiosity.</h2>
+          <div class="portrait-intro">
+            <img
+              src="assets/images/priyanshu.jpg"
+              alt="Priyanshu Agrawal"
+              width="76"
+              height="76"
+              loading="lazy"
+            />
+            <p>
+              Priyanshu Agrawal<span>Engineer. Learner. Fellow human.</span>
+            </p>
+          </div>
+          <p>
+            I'm a full-stack engineer based in Bengaluru, India. My work spans
+            large-scale distributed systems, web experiences, and the developer
+            tools that make building them a little easier.
+          </p>
+          <p>
+            These days, I'm a
+            <strong>Principal Software Engineer at Microsoft</strong> on Power
+            Pages, within Power Platform. I lead agentic authoring and work on
+            pro-developer tools, including PAC CLI and the Power Platform Tools
+            VS Code extension.
+          </p>
+          <p>
+            That work spans the Power Pages AI plugin, SPA sites, samples, and
+            templates. Before moving to Power Pages, I worked on Bing's frontend
+            platform and Copilot testing, with earlier chapters at GE Digital
+            and Infosys.
+          </p>
+          <p>
+            I enjoy learning new technologies, following a good question, and
+            turning what I learn into something useful. I also share that work
+            with the community as a
+            <a href="#speaking">Power Platform Community Conference speaker</a>.
+          </p>
+          <div class="toolkit">
+            <p class="eyebrow">Things I build with</p>
+            <ul class="tags">
+              <li>C# &amp; .NET</li>
+              <li>Power Pages &amp; Power Platform</li>
+              <li>AI skills &amp; developer tools</li>
+              <li>React &amp; JavaScript</li>
+              <li>ASP.NET Core</li>
+              <li>SQL Server &amp; PostgreSQL</li>
+              <li>Playwright</li>
+              <li>Azure DevOps</li>
+              <li>Docker &amp; Kubernetes</li>
+              <li>Jenkins</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-aside">
+          <div class="journey">
+            <p class="eyebrow">The journey so far</p>
+            <ol class="timeline">
+              <li class="current has-company-mark">
+                <span class="company-mark"
+                  ><img
+                    src="assets/images/logos/microsoft.svg"
+                    width="24"
+                    height="24"
+                    alt=""
+                    loading="lazy"
+                /></span>
+                <p class="timeline-date">
+                  Sep 2022 &mdash; Present <span class="now-tag">NOW</span>
+                </p>
+                <h3>
+                  <a
+                    href="https://microsoft.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Microsoft <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p class="timeline-role">Principal Software Engineer</p>
+                <p>
+                  <strong>Power Pages</strong> &mdash; leading agentic authoring
+                  and building pro-developer experiences across PAC CLI and VS
+                  Code.
+                  <span class="timeline-previous"
+                    >Previously: Bing frontend, identity, and Copilot
+                    testing.</span
+                  >
+                </p>
+              </li>
+              <li class="has-company-mark">
+                <span class="company-mark"
+                  ><img
+                    src="assets/images/logos/ge.svg"
+                    width="30"
+                    height="30"
+                    alt=""
+                    loading="lazy"
+                /></span>
+                <p class="timeline-date">Oct 2017 &mdash; Jun 2022</p>
+                <h3>
+                  <a
+                    href="https://www.ge.com/digital"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GE Digital <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p class="timeline-role">Senior Software Engineer</p>
+                <p>Cloud-based industrial analytics and asset performance.</p>
+              </li>
+              <li class="has-company-mark">
+                <span class="company-mark"
+                  ><img
+                    src="assets/images/logos/infosys.svg"
+                    width="34"
+                    height="20"
+                    alt=""
+                    loading="lazy"
+                /></span>
+                <p class="timeline-date">Sep 2015 &mdash; Oct 2017</p>
+                <h3>
+                  <a
+                    href="https://infosys.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Infosys <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p class="timeline-role">Senior Systems Engineer</p>
+                <p>
+                  Full-stack enterprise applications on the Microsoft stack.
+                </p>
+              </li>
+              <li>
+                <p class="timeline-date">Jun 2014</p>
+                <h3>
+                  <a
+                    href="https://www.godoctr.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >GoDoctr <span aria-hidden="true">&#8599;</span></a
+                  >
+                </h3>
+                <p class="timeline-role">Software Engineer Intern</p>
+                <p>REST APIs and domain models for an Android application.</p>
+              </li>
+            </ol>
+          </div>
+          <details class="background-details">
+            <summary>
+              Before the work
+              <span class="details-symbol" aria-hidden="true"></span>
+            </summary>
+            <div>
+              <h3>B.Tech, Information Technology</h3>
+              <p>Ajay Kumar Garg Engineering College<br />2011&ndash;2015</p>
+              <h3>Senior Secondary</h3>
+              <p>Birla School, Pilani &middot; 2008&ndash;2010</p>
+              <p>
+                English &mdash; professional proficiency<br />Hindi &mdash;
+                native speaker
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section
+        class="speaking-section wrap"
+        id="speaking"
+        aria-labelledby="speaking-heading"
+      >
+        <div class="speaking-copy">
+          <p class="eyebrow section-index">05 / Sharing the work</p>
+          <h2 id="speaking-heading">Beyond the build.</h2>
+          <p>
+            I'm a speaker at the
+            <strong>Power Platform Community Conference</strong>. I bring the
+            perspective of someone building the tools: pro-developer
+            experiences, AI-assisted workflows, and helping Power Pages sites
+            make the leap from a demo to the real world.
+          </p>
+          <a
+            class="text-link"
+            href="https://powerplatformconf.com/speakers/Priyanshu-Agrawal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View my speaker profile <span aria-hidden="true">&#8599;</span>
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </div>
+        <article class="conference-note">
+          <div class="conference-topline">
+            <span class="eyebrow">PPCC 2026</span
+            ><span class="conference-badge">Speaker</span>
+          </div>
+          <h3>
+            Production-Ready Power Pages: Our Top 10 Secrets for Sites That
+            Scale
+          </h3>
+          <p class="conference-date">
+            Las Vegas <span aria-hidden="true">&middot;</span> October
+            27&ndash;29, 2026
+          </p>
+          <p>
+            Practical lessons in performance, caching, scalable data access, and
+            security&mdash;so sites hold up beyond the demo.
+          </p>
+          <a
+            class="text-link"
+            href="https://powerplatformconf.com/sessions/Production-Ready-Power-Pages%3A-Our-Top-10-Secrets-for-Sites-That-Scale"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Explore the session <span aria-hidden="true">&#8599;</span>
+            <span class="sr-only"> (opens in a new tab)</span>
+          </a>
+        </article>
+      </section>
+
+      <section class="personal-notes wrap" aria-label="Away from the work">
+        <article class="writing-note">
+          <p class="eyebrow">Notes from along the way</p>
+          <div class="writing-mark" aria-hidden="true">&#10035;</div>
+          <h2>Learning is better<br /><em>when it's shared.</em></h2>
+          <p>
+            The writing lives next door. Drop by my blog for more from the other
+            side of the editor.
+          </p>
+          <a
+            class="text-link"
+            href="https://priyanshu.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Visit the blog <span aria-hidden="true">&#8599;</span
+            ><span class="sr-only"> (opens in a new tab)</span></a
+          >
+        </article>
+      </section>
+
+      <section class="kind-words wrap" aria-labelledby="quote-heading">
+        <p class="eyebrow" id="quote-heading">A kind word from a teammate</p>
+        <figure>
+          <blockquote>
+            <p>
+              &ldquo;Priyanshu's attention to detail and pride in his work
+              shines through at every sprint review and sets him apart as a
+              cultural leader on our team.&rdquo;
+            </p>
+          </blockquote>
+          <figcaption>
+            <span class="quote-line" aria-hidden="true"></span
+            ><span
+              >John Slovensky<small
+                >Technical Product Manager, GE Digital</small
+              ></span
+            >
+          </figcaption>
+        </figure>
+        <details class="full-quote">
+          <summary>
+            Read the full recommendation
+            <span class="details-symbol" aria-hidden="true"></span>
+          </summary>
+          <blockquote>
+            <p>
+              Priyanshu is a dedicated, skilled, honest, vigilant, and
+              conscientious engineer who also happens to be an excellent
+              communicator; a rare and valuable set of traits in today's world.
+              His consistent positive attitude, work ethic, and software design
+              knowledge have been essential in getting our builds tested and
+              shipped to production.
+            </p>
+            <p>
+              During the last three years at GE Digital, Priyanshu's foresight
+              and diligence has helped our product team avoid design pitfalls
+              while also building efficient solutions to client problems. In
+              preparing and managing sprints, I counted on Priyanshu to vet
+              implementation plans and tasks to be sure I didn't have a blind
+              spot or knowledge gap. Priyanshu's attention to detail and pride
+              in his work shines through at every sprint review and sets him
+              apart as a cultural leader on our team.
+            </p>
+          </blockquote>
+          <a
+            class="text-link"
+            href="https://www.linkedin.com/in/agrawalpriyanshu/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >More on LinkedIn <span aria-hidden="true">&#8599;</span></a
+          >
+        </details>
+      </section>
+
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-heading"
+      >
+        <div class="contact-layout wrap">
+          <div class="contact-copy">
+            <p class="eyebrow section-index">06 / Get in touch</p>
+            <h2 id="contact-heading">Let's talk.</h2>
+            <p>
+              A question, an idea, or just a friendly wave.<br />I'd be happy to
+              hear from you.
+            </p>
+            <a class="email-link" href="mailto:priyanshuagrawal@outlook.com"
+              >priyanshuagrawal@outlook.com
+              <span aria-hidden="true">&#8599;</span></a
+            >
+            <div class="contact-socials">
+              <a
+                href="https://github.com/priyanshu92"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub <span aria-hidden="true">&#8599;</span></a
+              ><a
+                href="https://www.linkedin.com/in/agrawalpriyanshu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn <span aria-hidden="true">&#8599;</span></a
+              ><a
+                href="https://twitter.com/priyanshu1312"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter <span aria-hidden="true">&#8599;</span></a
+              >
+            </div>
+          </div>
+          <form
+            id="contactForm"
+            name="contact"
+            method="post"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>Leave this field empty <input name="bot-field" /></label>
+            </p>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Your name</label
+                ><input
+                  required
+                  name="name"
+                  type="text"
+                  id="name"
+                  autocomplete="name"
+                  placeholder="What should I call you?"
+                />
+              </div>
+              <div class="form-field">
+                <label for="email">Email address</label
+                ><input
+                  required
+                  name="email"
+                  type="email"
+                  id="email"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">What's on your mind?</label
+              ><textarea
+                required
+                id="message"
+                rows="4"
+                name="message"
+                placeholder="Make yourself at home..."
+              ></textarea>
+            </div>
+            <div class="form-footer">
+              <span>Just a note, human to human.</span
+              ><button type="submit" class="button button-primary">
+                Send a note <span aria-hidden="true">&#8599;</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div class="footer-main">
+        <a class="wordmark" href="#home"
+          >priyanshu<span class="wordmark-dot">.</span></a
+        >
+        <p>Thanks for spending a little of your time here.</p>
+        <a class="back-to-top" href="#home"
+          >Back to the top <span aria-hidden="true">&#8593;</span></a
+        >
       </div>
-      <div class="container text-center">
-        <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-        <small class="copyright">Content &copy; Priyanshu Agrawal</small>
+      <div class="footer-meta">
+        <small
+          >Content &copy; <span data-year>2026</span> Priyanshu Agrawal</small
+        >
+        <small>Built with care. Best enjoyed unhurried.</small>
       </div>
-      <!--//container-->
     </footer>
-    <!--//footer-->
-
-    <!-- Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"></script>
-    <script defer type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/dark-mode-switch@1.0.0/dark-mode-switch.min.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
-
 </html>
