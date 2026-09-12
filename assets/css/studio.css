@@ -219,16 +219,12 @@ strong {
   letter-spacing: -0.35px;
   text-decoration: none;
 }
-.monogram {
-  display: grid;
-  place-items: center;
+.header-portrait {
   width: 36px;
   height: 36px;
-  background: var(--ink);
-  color: var(--paper);
+  flex-shrink: 0;
+  object-fit: cover;
   border-radius: 5px;
-  font-size: 18px;
-  letter-spacing: -1px;
 }
 .main-nav {
   display: flex;
